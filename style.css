@@ -3,7 +3,8 @@
 body {
   font-family: 'Nunito';
   text-align: center;
-  background-color: whitesmoke
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(198,198,198,1) 100%)
 }
 
 .banner {
@@ -17,13 +18,12 @@ body {
 }
 
 #portrait {
-  border-radius: 40px;
+  border-radius: 4px;
   width: 170px;
   height: auto;
 }
 
 .portrait-div {
-  background: whitesmoke;
   padding: 30px;
 }
 
